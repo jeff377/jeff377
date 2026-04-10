@@ -40,12 +40,6 @@ Bee.Core / Bee.Definition / Bee.Api.Contracts
 
 ---
 
-## 📊 GitHub Stats
-
-![jeff377's GitHub stats](https://github-readme-stats.vercel.app/api?username=jeff377&show_icons=true&theme=default&hide_border=true)
-
----
-
 ## 📝 Technical Notes
 
 I share hands-on architecture experience and implementation notes on HackMD:
