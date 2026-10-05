@@ -8,28 +8,23 @@ I specialize in enterprise application architecture — designing systems that a
 
 ## 🔭 Featured Project
 
-### [Bee.NET Framework](https://github.com/jeff377/bee-library)
+### [Polhem Framework](https://github.com/polhem-dev/polhem)
 
-A **Definition-Driven Architecture** for .NET enterprise app development — a single schema drives UI, DB, and validation.
+A modular .NET framework for building **definition-driven** business applications — the successor of Bee.NET.
 
 - **Single source of truth** — `FormSchema` drives UI layout, database schema, and validation simultaneously
-- **Hybrid architecture** — Layered separation with MVVM presentation, tuned for ERP transactional flows
-- **Cross-platform** — Core packages target `netstandard2.0; net10.0`
-- **Modular** — Decoupled assemblies for core utilities, data access, business logic, and API hosting
+- **Hybrid architecture** — N-Tier + Clean Architecture + MVVM, tuned for ERP transactional flows
+- **Any client, one API** — Avalonia (desktop, browser, iOS, Android), Blazor Server, and JavaScript clients talk to the server over JSON-RPC 2.0
+- **Multi-database** — SQL Server, PostgreSQL, MySQL, Oracle, and SQLite
+- **Conventions enforced at build time** — Roslyn analyzers ship with the packages and turn framework rules into build diagnostics
 
-```
-        Bee.Core · Bee.Definition · Bee.Api.Contracts
-                          │
-          ┌───────────────┴───────────────┐
-        Server                          Client
-          │                                │
-   Bee.Db · Bee.Repository           Bee.Api.Client
-          │
-     Bee.Business
-          │
-   Bee.Api.AspNetCore
-     (JSON-RPC 2.0)
-```
+See it in action: [Polhem.Northwind](https://github.com/polhem-dev/polhem-northwind) — the classic Northwind case built almost entirely from definitions, running on desktop, browser, iOS, and Android.
+
+### More from [polhem-dev](https://github.com/polhem-dev)
+
+- **[Polhem.JsonRpc](https://github.com/polhem-dev/polhem-jsonrpc)** — JSON-RPC 2.0 for .NET on System.Text.Json: server, ASP.NET Core endpoint, and client
+- **[Polhem.OAuth2](https://github.com/polhem-dev/polhem-oauth2)** — lightweight OAuth2 sign-in for .NET (Google, Facebook, LINE, Microsoft Entra ID, Auth0, Okta)
+- **[polhem-connector-js](https://github.com/polhem-dev/polhem-connector-js)** — JavaScript / TypeScript connector for the Polhem JSON-RPC API
 
 ---
 
@@ -51,7 +46,7 @@ I share hands-on architecture experience and implementation notes on HackMD:
 
 👉 [hackmd.io/@jeff377](https://hackmd.io/@jeff377)
 
-Topics include .NET architecture design, enterprise system patterns, and Bee.NET framework deep dives.
+Topics include .NET architecture design, enterprise system patterns, and Polhem framework deep dives.
 
 ---
 
@@ -59,4 +54,4 @@ Topics include .NET architecture design, enterprise system patterns, and Bee.NET
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeff-tsai-9476151a0/)
 [![HackMD](https://img.shields.io/badge/HackMD-000000?style=flat&logo=hackmd&logoColor=white)](https://hackmd.io/@jeff377)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/profiles/jeff377)
+[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/profiles/Polhem)
