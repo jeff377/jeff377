@@ -1,5 +1,7 @@
 # Hi, I'm Jeff 👋
 
+**English** | [繁體中文](https://github.com/jeff377/jeff377/blob/main/README.zh-TW.md)
+
 **Software Architect** · Taipei, Taiwan
 
 I specialize in enterprise application architecture — designing systems that are modular, maintainable, and built to scale. My focus is on applying **N-Tier + Clean Architecture + MVVM** patterns to real-world ERP and business information systems.
